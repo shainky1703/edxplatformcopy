@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      "@edx/stylelint-config-edx@1.1.0",
+      "/edx/app/edxapp/edx-platform"
+    ]
+  ],
+  "_development": true,
+  "_from": "@edx/stylelint-config-edx@1.1.0",
+  "_id": "@edx/stylelint-config-edx@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-EqRfPoiNzAvDpfie7In5T361Y38=",
+  "_location": "/@edx/stylelint-config-edx",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@edx/stylelint-config-edx@1.1.0",
+    "name": "@edx/stylelint-config-edx",
+    "escapedName": "@edx%2fstylelint-config-edx",
+    "scope": "@edx",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@edx/stylelint-config-edx/-/stylelint-config-edx-1.1.0.tgz",
+  "_spec": "1.1.0",
+  "_where": "/edx/app/edxapp/edx-platform",
+  "bugs": {
+    "url": "https://github.com/edx/stylelint-config-edx/issues"
+  },
+  "dependencies": {
+    "stylelint": "^8.1.1",
+    "stylelint-config-recommended-scss": "^2.0.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-scss": "^2.1.0"
+  },
+  "description": "Stylelint configs for edX Sass files.",
+  "devDependencies": {
+    "eslint-config-edx": "^4.0.0"
+  },
+  "files": [
+    "stylelint.config.js"
+  ],
+  "homepage": "https://github.com/edx/edx-stylelint-config-edx#readme",
+  "keywords": [
+    "edx",
+    "linter",
+    "sass",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "license": "Apache-2.0",
+  "main": "stylelint.config.js",
+  "name": "@edx/stylelint-config-edx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edx/stylelint-config-edx.git"
+  },
+  "scripts": {
+    "lint-js": "eslint . --ignore-path .gitignore",
+    "quality": "npm run lint-js",
+    "test": "npm run quality"
+  },
+  "version": "1.1.0"
+}

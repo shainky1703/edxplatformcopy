@@ -1,0 +1,6 @@
+2021-09-13 11:40:56,585 WARNING 825236 [py.warnings] [user None] [ip None] warnings.py:109 - /edx/app/edxapp/venvs/edxapp/lib/python3.8/site-packages/newrelic/console.py:84: DeprecationWarning: `formatargspec` is deprecated since Python 3.5. Use `signature` and the `Signature` object directly
+  prototype = wrapper.__name__[3:] + ' ' + inspect.formatargspec(
+
+2021-09-13 11:40:59,695 WARNING 825236 [py.warnings] [user None] [ip None] warnings.py:109 - /edx/app/edxapp/venvs/edxapp/lib/python3.8/site-packages/storages/backends/s3boto.py:41: DeprecationWarning: The S3BotoStorage backend is deprecated in favor of the S3Boto3Storage backend and will be removed in django-storages 1.8. This backend is mostly in bugfix only mode and has been for quite a while (in much the same way as its underlying library 'boto'). For performance, security and new feature reasons it is _strongly_ recommended that you update to the S3Boto3Storage backend. Please see the migration docs https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html#migrating-boto-to-boto3.
+  warnings.warn(
+

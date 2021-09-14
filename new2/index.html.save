@@ -1,0 +1,2 @@
+  382 cd ../../../ 383 cd ../ 384 paver update_assets 385 sudo -H -u edxapp bash 386 sudo /edx/bin/supervisorctl restart all 387 sudo -H -u edxapp bash 388 sudo service memcached restart 389 ls 390 cd /edx/app/edxapp/edx-platform/themes/ 391 ls 392 sudo chmod -R 
+  777 mdh-theme/ 393 cd mdh-theme/lms 394 ls 395 cd templates/ 396 ls 397 cd .. 398 cd static/ 399 ls 400 cd custom_css/ 401 LS 402 ls 403 vi style.css 404 sudo /edx/bin/supervisorctl restart all 405 ls 406 history
